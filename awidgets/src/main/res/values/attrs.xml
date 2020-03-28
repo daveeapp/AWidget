@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="HorizonScaleBar" tools:ignore="ResourceName">
+        <!-- Value -->
+        <attr name="hsb_min_value" format="integer"/>
+        <attr name="hsb_max_value" format="integer"/>
+        <attr name="hsb_value_stride" format="integer"/>
+        <attr name="hsb_second_stride" format="integer"/>
+        <attr name="hsb_selected_value" format="integer"/>
+        
+        <!-- BaseLine -->
+        <attr name="hsb_baseLineEnable" format="boolean"/>
+        <attr name="hsb_baseLineHeight" format="dimension"/>
+        <attr name="hsb_baseLineColor" format="color"/>
+        
+        <!-- Scale -->
+        <attr name="hsb_scale_spacing" format="dimension"/>
+        <attr name="hsb_scale_width" format="dimension"/>
+        <attr name="hsb_scale_height" format="dimension"/>
+        <attr name="hsb_scale_color" format="color"/>
+        <attr name="hsb_second_scale_height" format="dimension"/>
+        <attr name="hsb_second_scale_color" format="color"/>
+        
+        <!-- Indicator -->
+        <attr name="hsb_indicator_color" format="color"/>
+        <attr name="hsb_indicator_height" format="dimension"/>
+        <attr name="hsb_indicator_width" format="dimension"/>
+        
+        <!-- Second Label -->
+        <attr name="hsb_second_label_size" format="dimension"/>
+        <attr name="hsb_second_label_color" format="color"/>
+    
+    
+    </declare-styleable>
+</resources>

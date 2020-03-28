@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="selected: 1"/>
+    
+    <com.davee.awidgets.HorizonScaleBar
+        android:id="@+id/scaleBar"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingBottom="16dp"
+        app:hsb_scale_width="2dp"
+        app:hsb_scale_spacing="8dp"
+        app:hsb_scale_height="16dp"
+        app:hsb_second_scale_height="24dp"
+        app:hsb_indicator_height="32dp"
+        app:hsb_baseLineColor="@color/colorAccent"
+        app:hsb_scale_color="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+</LinearLayout>
